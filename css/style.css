@@ -3,6 +3,11 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    @media screen {
+        max-width: 1440px;
+    }
+    
     
 }
 
@@ -10,12 +15,7 @@
     width: 1400px;
     height: auto;
     margin: 0%;
-    padding-right: 0%;
-
-
-    
-    
-    
+    padding-left: 0%;
 
 }
 
@@ -42,16 +42,19 @@
 #nav {
     padding: 0%;
     margin: 0%;
-    text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
     
 }
 #nav ul {
     list-style-type: none;
     padding: 0%;
-    margin: 15px;
+    margin: 10px;
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 100%;
 
@@ -75,6 +78,8 @@
     background-repeat: no-repeat;
     width: 100%;
     text-decoration-color: aliceblue;
+    
+    }
 
 }
 #main p {
@@ -83,29 +88,56 @@
     margin: 10px auto;
     line-height: 20px;
 }
+#contain-form{
+    width:300px ;
+    height: 300px;
+    
+
+}
 h1{
     background-color: white;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    
 } 
 h2{
     width: 80%;
     text-align: center;
     margin: 10px auto;
-    line-height: 25px;
+    text-decoration-color: aliceblue;
+    background-color: azure;
+
 }
 h3{
     width: 80%;
     text-align: center;
     margin: 10px auto;
     line-height: 25px;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
-h4 img{
+.conteiner-sm {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    image-rendering: auto;
+
+}
+.contacto-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 40px;
+    height: 200px;
     
+    
+    
+
 }
 
-#footer {
+
+#footer{
     width: 100%;
     height: 80px;
     background-color: grey;
@@ -114,10 +146,8 @@ h4 img{
     position: fixed;
     bottom: 0%;
     line-height: 1;
-
-
-
 }
+
 .footerNav ul{
     list-style-type: none;
     padding: 0%;
